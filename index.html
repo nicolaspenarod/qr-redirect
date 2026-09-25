@@ -3,10 +3,25 @@
 <head>
     <meta charset="utf-8">
     <title>Download in corso...</title>
-    <!-- Spazi sostituiti con %20 -->
-    <meta http-equiv="refresh" content="0;url=https://raw.githubusercontent.com/nicolaspenarod/qr-redirect/main/PA26_PurposeInAction150dpi.pdf">
+    
+    <!-- Google tag (gtag.js) per Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-S61EYT5EMT"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-S61EYT5EMT');
+    </script>
+
+    <!-- Script di reindirizzamento automatico al PDF -->
+    <script>
+      setTimeout(function() {
+          window.location.href = "https://raw.githubusercontent.com/nicolaspenarod/qr-redirect/main/PA26_PurposeInAction150dpi.pdf";
+      }, 500); // Ritardo di 500ms per consentire la registrazione su GA4
+    </script>
 </head>
 <body>
-    <p>Se il download non parte automaticamente, <a href="https://raw.githubusercontent.com/nicolaspenarod/qr-redirect/main/PA26_PurposeInAction150dpi.pdf">clicca qui per scaricare il PDF</a>.</p>
+    <p>Download in corso... Se il download non parte automaticamente, <a href="https://raw.githubusercontent.com/nicolaspenarod/qr-redirect/main/PA26_PurposeInAction150dpi.pdf">clicca qui per scaricare il PDF</a>.</p>
 </body>
 </html>
